@@ -1,0 +1,47 @@
+{
+  "name": "card-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "http-server index.html",
+    "lint": "eslint .",
+    "devserver": "live-server --browser=Chrome",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "babel-jest": "^25.4.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "html-webpack-plugin": "^4.2.0",
+    "jasmine": "^3.5.0",
+    "jest": "^25.4.0",
+    "jest-jasmine2": "^25.2.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "puppeteer": "^2.1.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "extract-zip": "^2.0.0",
+    "increment-version": "0.0.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "src/__tests__/e2e/e2e.server.js"
+    ]
+  }
+}
