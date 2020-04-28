@@ -1,2 +1,2 @@
- [![Build status](https://ci.appveyor.com/api/projects/status/m2e8yy35ka5h4h7k?svg=true)](https://ci.appveyor.com/project/Ilya/card-widget-new)
- https://iliakra.github.io/Card-widget-new/
+ [![Build status](https://ci.appveyor.com/api/projects/status/1pb6c34a2hyw17db?svg=true)](https://ci.appveyor.com/project/Ilya/popovers)
+ https://iliakra.github.io/Popovers/
